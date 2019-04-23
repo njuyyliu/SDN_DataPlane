@@ -1,0 +1,26 @@
+NXST_FLOW reply (xid=0x4):
+ cookie=0x200003ad000000, duration=1.205s, table=0, n_packets=1, n_bytes=98, idle_timeout=5, idle_age=0, priority=1,ip,in_port=1,dl_src=c2:41:7f:2d:9b:5f,dl_dst=aa:f6:6e:e3:60:0a,nw_src=192.168.123.27,nw_dst=192.168.123.22 actions=output:3
+ cookie=0x200003ae000000, duration=1.199s, table=0, n_packets=2, n_bytes=196, idle_timeout=5, idle_age=0, priority=1,ip,in_port=3,dl_src=aa:f6:6e:e3:60:0a,dl_dst=c2:41:7f:2d:9b:5f,nw_src=192.168.123.22,nw_dst=192.168.123.27 actions=output:1
+ cookie=0x0, duration=2307.407s, table=0, n_packets=4771, n_bytes=340389, idle_age=0, priority=0 actions=CONTROLLER:65535
+NXST_FLOW reply (xid=0x4):
+ cookie=0x200003ad000000, duration=4.155s, table=0, n_packets=2, n_bytes=196, idle_timeout=5, idle_age=2, priority=1,ip,in_port=1,dl_src=c2:41:7f:2d:9b:5f,dl_dst=aa:f6:6e:e3:60:0a,nw_src=192.168.123.27,nw_dst=192.168.123.22 actions=output:3
+ cookie=0x200003ae000000, duration=4.149s, table=0, n_packets=3, n_bytes=294, idle_timeout=5, idle_age=2, priority=1,ip,in_port=3,dl_src=aa:f6:6e:e3:60:0a,dl_dst=c2:41:7f:2d:9b:5f,nw_src=192.168.123.22,nw_dst=192.168.123.27 actions=output:1
+ cookie=0x200003b3000000, duration=0.123s, table=0, n_packets=1, n_bytes=98, idle_timeout=5, idle_age=0, priority=1,ip,in_port=6,dl_src=de:75:dc:24:d9:1b,dl_dst=fe:74:c6:ae:2d:53,nw_src=192.168.123.30,nw_dst=192.168.123.20 actions=output:5
+ cookie=0x200003b4000000, duration=0.117s, table=0, n_packets=1, n_bytes=98, idle_timeout=5, idle_age=0, priority=1,ip,in_port=5,dl_src=fe:74:c6:ae:2d:53,dl_dst=de:75:dc:24:d9:1b,nw_src=192.168.123.20,nw_dst=192.168.123.30 actions=output:6
+ cookie=0x0, duration=2310.357s, table=0, n_packets=4775, n_bytes=340669, idle_age=0, priority=0 actions=CONTROLLER:65535
+NXST_FLOW reply (xid=0x4):
+ cookie=0x200003ad000000, duration=6.975s, table=0, n_packets=2, n_bytes=196, idle_timeout=5, idle_age=4, priority=1,ip,in_port=1,dl_src=c2:41:7f:2d:9b:5f,dl_dst=aa:f6:6e:e3:60:0a,nw_src=192.168.123.27,nw_dst=192.168.123.22 actions=output:3
+ cookie=0x200003ae000000, duration=6.969s, table=0, n_packets=3, n_bytes=294, idle_timeout=5, idle_age=4, priority=1,ip,in_port=3,dl_src=aa:f6:6e:e3:60:0a,dl_dst=c2:41:7f:2d:9b:5f,nw_src=192.168.123.22,nw_dst=192.168.123.27 actions=output:1
+ cookie=0x200003b3000000, duration=2.943s, table=0, n_packets=3, n_bytes=294, idle_timeout=5, idle_age=0, priority=1,ip,in_port=6,dl_src=de:75:dc:24:d9:1b,dl_dst=fe:74:c6:ae:2d:53,nw_src=192.168.123.30,nw_dst=192.168.123.20 actions=output:5
+ cookie=0x200003b4000000, duration=2.937s, table=0, n_packets=3, n_bytes=294, idle_timeout=5, idle_age=0, priority=1,ip,in_port=5,dl_src=fe:74:c6:ae:2d:53,dl_dst=de:75:dc:24:d9:1b,nw_src=192.168.123.20,nw_dst=192.168.123.30 actions=output:6
+ cookie=0x200003b5000000, duration=1.954s, table=0, n_packets=1, n_bytes=42, idle_timeout=5, idle_age=1, priority=1,arp,in_port=3,dl_src=aa:f6:6e:e3:60:0a,dl_dst=c2:41:7f:2d:9b:5f actions=output:1
+ cookie=0x200003b6000000, duration=1.948s, table=0, n_packets=0, n_bytes=0, idle_timeout=5, idle_age=1, priority=1,arp,in_port=1,dl_src=c2:41:7f:2d:9b:5f,dl_dst=aa:f6:6e:e3:60:0a actions=output:3
+ cookie=0x0, duration=2313.177s, table=0, n_packets=4777, n_bytes=340809, idle_age=0, priority=0 actions=CONTROLLER:65535
+NXST_FLOW reply (xid=0x4):
+ cookie=0x200003b3000000, duration=5.591s, table=0, n_packets=3, n_bytes=294, idle_timeout=5, idle_age=3, priority=1,ip,in_port=6,dl_src=de:75:dc:24:d9:1b,dl_dst=fe:74:c6:ae:2d:53,nw_src=192.168.123.30,nw_dst=192.168.123.20 actions=output:5
+ cookie=0x200003b4000000, duration=5.585s, table=0, n_packets=3, n_bytes=294, idle_timeout=5, idle_age=3, priority=1,ip,in_port=5,dl_src=fe:74:c6:ae:2d:53,dl_dst=de:75:dc:24:d9:1b,nw_src=192.168.123.20,nw_dst=192.168.123.30 actions=output:6
+ cookie=0x200003b5000000, duration=4.602s, table=0, n_packets=1, n_bytes=42, idle_timeout=5, idle_age=4, priority=1,arp,in_port=3,dl_src=aa:f6:6e:e3:60:0a,dl_dst=c2:41:7f:2d:9b:5f actions=output:1
+ cookie=0x200003b6000000, duration=4.596s, table=0, n_packets=0, n_bytes=0, idle_timeout=5, idle_age=4, priority=1,arp,in_port=1,dl_src=c2:41:7f:2d:9b:5f,dl_dst=aa:f6:6e:e3:60:0a actions=output:3
+ cookie=0x200003bb000000, duration=0.506s, table=0, n_packets=1, n_bytes=42, idle_timeout=5, idle_age=0, priority=1,arp,in_port=5,dl_src=fe:74:c6:ae:2d:53,dl_dst=de:75:dc:24:d9:1b actions=output:6
+ cookie=0x200003bc000000, duration=0.497s, table=0, n_packets=1, n_bytes=42, idle_timeout=5, idle_age=0, priority=1,arp,in_port=6,dl_src=de:75:dc:24:d9:1b,dl_dst=fe:74:c6:ae:2d:53 actions=output:5
+ cookie=0x0, duration=2315.825s, table=0, n_packets=4779, n_bytes=340893, idle_age=0, priority=0 actions=CONTROLLER:65535

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+switch=$1
+echo 'hv123' | sudo -S ovs-ofctl dump-flows ${switch} > /home/haven2/20181022/FlowTable-${switch}
+

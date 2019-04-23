@@ -1,0 +1,8 @@
+NXST_FLOW reply (xid=0x4):
+ cookie=0x0, duration=2353.225s, table=0, n_packets=4328, n_bytes=307415, idle_age=1, priority=0 actions=CONTROLLER:65535
+NXST_FLOW reply (xid=0x4):
+ cookie=0x0, duration=2356.252s, table=0, n_packets=4332, n_bytes=307761, idle_age=0, priority=0 actions=CONTROLLER:65535
+NXST_FLOW reply (xid=0x4):
+ cookie=0x0, duration=2359.073s, table=0, n_packets=4336, n_bytes=307985, idle_age=0, priority=0 actions=CONTROLLER:65535
+NXST_FLOW reply (xid=0x4):
+ cookie=0x0, duration=2361.718s, table=0, n_packets=4338, n_bytes=308125, idle_age=1, priority=0 actions=CONTROLLER:65535

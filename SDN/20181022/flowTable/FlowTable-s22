@@ -1,0 +1,16 @@
+NXST_FLOW reply (xid=0x4):
+ cookie=0x200003ab000000, duration=2.914s, table=0, n_packets=3, n_bytes=294, idle_timeout=5, idle_age=0, priority=1,ip,in_port=3,dl_src=aa:f6:6e:e3:60:0a,dl_dst=f2:45:db:b0:53:80,nw_src=192.168.123.22,nw_dst=192.168.123.23 actions=output:1
+ cookie=0x200003ac000000, duration=2.909s, table=0, n_packets=2, n_bytes=196, idle_timeout=5, idle_age=0, priority=1,ip,in_port=1,dl_src=f2:45:db:b0:53:80,dl_dst=aa:f6:6e:e3:60:0a,nw_src=192.168.123.23,nw_dst=192.168.123.22 actions=output:3
+ cookie=0x0, duration=2315.813s, table=0, n_packets=4496, n_bytes=319892, idle_age=0, priority=0 actions=CONTROLLER:65535
+NXST_FLOW reply (xid=0x4):
+ cookie=0x200003ab000000, duration=5.930s, table=0, n_packets=3, n_bytes=294, idle_timeout=5, idle_age=3, priority=1,ip,in_port=3,dl_src=aa:f6:6e:e3:60:0a,dl_dst=f2:45:db:b0:53:80,nw_src=192.168.123.22,nw_dst=192.168.123.23 actions=output:1
+ cookie=0x200003ac000000, duration=5.925s, table=0, n_packets=2, n_bytes=196, idle_timeout=5, idle_age=3, priority=1,ip,in_port=1,dl_src=f2:45:db:b0:53:80,dl_dst=aa:f6:6e:e3:60:0a,nw_src=192.168.123.23,nw_dst=192.168.123.22 actions=output:3
+ cookie=0x200003b1000000, duration=0.682s, table=0, n_packets=0, n_bytes=0, idle_timeout=5, idle_age=0, priority=1,arp,in_port=1,dl_src=f2:45:db:b0:53:80,dl_dst=aa:f6:6e:e3:60:0a actions=output:3
+ cookie=0x200003b2000000, duration=0.668s, table=0, n_packets=1, n_bytes=42, idle_timeout=5, idle_age=0, priority=1,arp,in_port=3,dl_src=aa:f6:6e:e3:60:0a,dl_dst=f2:45:db:b0:53:80 actions=output:1
+ cookie=0x0, duration=2318.829s, table=0, n_packets=4498, n_bytes=320032, idle_age=0, priority=0 actions=CONTROLLER:65535
+NXST_FLOW reply (xid=0x4):
+ cookie=0x200003b1000000, duration=3.507s, table=0, n_packets=0, n_bytes=0, idle_timeout=5, idle_age=3, priority=1,arp,in_port=1,dl_src=f2:45:db:b0:53:80,dl_dst=aa:f6:6e:e3:60:0a actions=output:3
+ cookie=0x200003b2000000, duration=3.493s, table=0, n_packets=1, n_bytes=42, idle_timeout=5, idle_age=3, priority=1,arp,in_port=3,dl_src=aa:f6:6e:e3:60:0a,dl_dst=f2:45:db:b0:53:80 actions=output:1
+ cookie=0x0, duration=2321.654s, table=0, n_packets=4501, n_bytes=320270, idle_age=0, priority=0 actions=CONTROLLER:65535
+NXST_FLOW reply (xid=0x4):
+ cookie=0x0, duration=2324.301s, table=0, n_packets=4503, n_bytes=320354, idle_age=0, priority=0 actions=CONTROLLER:65535
